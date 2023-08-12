@@ -1,0 +1,23 @@
+mat-form-field {
+  width: 100%;
+}
+.example-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  align-items: flex-start;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+.example-radio {
+  margin-left: 16px;
+}
+.mat-mdc-radio-button.mat-accent {
+  --mdc-radio-selected-focus-icon-color: #0d6efd;
+  --mdc-radio-selected-pressed-icon-color: #0d6efd;
+  --mdc-radio-selected-hover-icon-color: #0d6efd;
+  --mat-radio-checked-ripple-color: #0d6efd;
+  --mdc-radio-selected-icon-color: #0d6efd;
+}
