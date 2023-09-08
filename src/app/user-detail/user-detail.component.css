@@ -1,0 +1,10 @@
+.example-card {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+.example-header-image {
+  background-image: url("https://st3.depositphotos.com/1007566/12989/v/950/depositphotos_129895116-stock-illustration-hacker-character-avatar-icon.jpg");
+  background-size: cover;
+}

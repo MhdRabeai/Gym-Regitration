@@ -1,0 +1,22 @@
+{
+  "enquiry": [
+    {
+      "firstName": "Mhd",
+      "lastName": "naser",
+      "email": "mhd@g.com",
+      "mobile": "0988021203",
+      "weight": 78,
+      "height": 170,
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Monthly",
+      "important": [
+        "Building lean Muscle",
+        "Fitness"
+      ],
+      "haveGym": "Yes",
+      "enquiryDate": "2023-08-12T21:00:00.000Z",
+      "id": 1
+    }
+  ]
+}

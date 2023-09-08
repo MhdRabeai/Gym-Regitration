@@ -2,8 +2,12 @@
   <h1>Gym App</h1>
   <span class="example-spacer"></span>
 
-  <button mat-raised-button color="warm">View Enquiries</button>
+  <button mat-raised-button color="warm" routerLink="/list">
+    View Enquiries
+  </button>
 </mat-toolbar>
 <div class="container mt-4">
   <router-outlet></router-outlet>
 </div>
+<ng-toast></ng-toast>
+<ng-confirm></ng-confirm>
