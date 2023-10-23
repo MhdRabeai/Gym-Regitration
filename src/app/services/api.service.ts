@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class ApiService {
-  private baseUrl: string = 'http://localhost:3000/enquiry';
+  private baseUrl: string = 'https://json-server-avob.onrender.com/enquiry';
   constructor(private http: HttpClient) {}
   postRegistration(registerObj: Userr) {
     return this.http.post<Userr[]>(`${this.baseUrl}`, registerObj);
